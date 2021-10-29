@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ideal Projectos</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+</head>
+
+<body>
+  <header class="header" id="home">
+    <div class="logo">
+      <a href="#">
+        <img src="img/idealProjectos.png" alt="Ideal Projectos">
+      </a>
+    </div>
+    <img src="img/idealProjectos-26.jpg" alt="projecto da ideal projectos" class="header-img">
+    <div class="content">
+      <h2>Desenvolvemos <br> projectos arquitectónicos</h2>
+      <a href="#">Contactar</a>
+    </div>
+  </header>
+
+  <div class="menuToggle" onclick="toggleMenu()">
+    <span class="hamburguer"></span>
+  </div>
+  <div class="nav">
+    <ul>
+      <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+      <li><a href="#about" onclick="toggleMenu()">Sobre nós</a></li>
+      <li><a href="#services" onclick="toggleMenu()">Serviços</a></li>
+      <li><a href="#project" onclick="toggleMenu()">Projectos</a></li>
+      <li><a href="#contact" onclick="toggleMenu()">Contactos</a></li>
+    </ul>
+
+    <div class="social-menu">
+      <ul>
+        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+        <li><a href="#"><i class="fas fa-at"></i></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <main>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-flex">
+          <div class="about-img">
+            <img src="img/idealProjectos-14.jpg" alt="">
+          </div>
+
+          <div class="about-content">
+            <h1>Sobre nós</h1>
+            <p>
+              Desenvolvemos projectos arquitectónicos, previlegiando os princípios
+              da sustentabilidade com o objetivo de proporcionar ao utentes espaços
+              estéticos, confortáveis e que reflitam a sua personalidade. Usamos a
+              tecnologia bim, com a finalidade de produzir projectos cuja execução
+              proporcione ao investidor (cliente) rapidez e economia na sua execução.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <img src="img/idealProjectos-07.jpg" alt="projecto da ideal projectos" class="services-img">
+      <div class="services-content">
+        <h2>Nossos Serviços</h2>
+
+        <div>
+          <h3>Arquitetura</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi accusamus
+            nihil deserunt adipisci, at inventore natus, aut obcaecati alias dolorum
+            amet fugit fugiat perferendis? Aliquid, consectetur qui commodi distinctio
+            nam repellendus? Repellat quae sint beatae dolore ullam voluptatibus
+            repudiandae soluta.
+          </p>
+        </div>
+
+        <div>
+          <h3>Engeharia</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi accusamus
+            nihil deserunt adipisci, at inventore natus, aut obcaecati alias dolorum
+            amet fugit fugiat perferendis? Aliquid, consectetur qui commodi distinctio
+            nam repellendus? Repellat quae sint beatae dolore ullam voluptatibus
+            repudiandae soluta.
+          </p>
+        </div>
+
+        <div>
+          <h3>Construção Civil</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi accusamus
+            nihil deserunt adipisci, at inventore natus, aut obcaecati alias dolorum
+            amet fugit fugiat perferendis? Aliquid, consectetur qui commodi distinctio
+            nam repellendus? Repellat quae sint beatae dolore ullam voluptatibus
+            repudiandae soluta.
+          </p>
+        </div>
+        <a href="#"> <i class="fas fa-handshake"></i> Contactar</a>
+      </div>
+    </section>
+
+    <section class="project" id="project">
+
+      <div class="project-content">
+        <div class="project-title">
+
+          <h2>Nossos Projectos</h2>
+        </div>
+
+          <div class="project-card">
+            <div class="cardP" onclick="openModal();currentSlide(1)">
+              <div class="card-img">
+                <img src="img/idealProjectos-17.jpg" alt="">
+              </div>
+              <div class="cardT">
+                <h3>Project</h3>
+              </div>
+            </div>
+            <div class="cardP" onclick="openModal();currentSlide(2)">
+              <div class="card-img">
+                <img src="img/idealProjectos-13.jpg"  alt="">
+              </div>
+              <div class="cardT">
+                <h3>Project</h3>
+              </div>
+            </div>
+            <div class="cardP" onclick="openModal();currentSlide(3)" >
+              <div class="card-img">
+                <img src="img/idealProjectos-27.jpg" alt="">
+              </div>
+              <div class="cardT">
+                <h3>Project</h3>
+              </div>
+            </div>
+            <div class="cardP" onclick="openModal();currentSlide(4)">
+              <div class="card-img">
+                <img src="img/idealProjectos-18.jpg" alt="">
+              </div>
+              <div class="cardT">
+                <h3>Project</h3>
+              </div>
+            </div>
+            <div class="cardP" onclick="openModal();currentSlide(5)">
+              <div class="card-img">
+                <img src="img/idealProjectos-21.jpg" alt="">
+              </div>
+              <div class="cardT">
+                <h3>Project</h3>
+              </div>
+            </div>
+            <div class="cardP" onclick="openModal();currentSlide(6)">
+              <div class="card-img">
+                <img src="img/idealProjectos-02.jpg" alt="">
+              </div>
+              <div class="cardT">
+                <h3>Project</h3>
+              </div>
+            </div>
+            <div class="cardP" onclick="openModal();currentSlide(7)" >
+              <div class="card-img">
+                <img src="img/idealProjectos-12.jpg" alt="">
+              </div>
+              <div class="cardT">
+                <h3>Project</h3>
+              </div>
+            </div>
+            <div class="cardP" onclick="openModal();currentSlide(8)">
+              <div class="card-img">
+                <img src="img/idealProjectos-22.jpg" alt="">
+              </div>
+              <div class="cardT">
+                <h3>Project</h3>
+              </div>
+            </div>
+          </div>
+
+        <div class="container">
+          <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 8</div>
+          <img src="img/idealProjectos-17.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 8</div>
+          <img src="img/idealProjectos-13.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 8</div>
+          <img src="img/idealProjectos-27.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 8</div>
+          <img src="img/idealProjectos-18.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 8</div>
+          <img src="img/idealProjectos-21.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">6 / 8</div>
+          <img src="img/idealProjectos-02.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">7 / 8</div>
+          <img src="img/idealProjectos-12.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">8 / 8</div>
+          <img src="img/idealProjectos-22.jpg" style="width:100%">
+        </div>
+
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Caption text -->
+        <div class="caption-container">
+          <img src="img/idealProjectos.png" alt="">
+        </div>
+
+      </div>
+    </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="contact" id="contact">
+
+      <img src="img/idealProjectos-06.jpg" alt="projecto da ideal projectos" class="contact-img">
+        <div class="contact-content">
+  
+          <div class="login_forms">
+            <form action="" class="login_registre" id="login-in">
+              <h2>contacte-nos</h2>
+  
+              <div class="login_box">
+                <i class="fas fa-user login_icon"></i>
+                <input type="text" placeholder="Nome" class="login_input">
+              </div>
+
+              <div class="login_box">
+                <i class="fas fa-phone login_icon"></i>
+                <input type="number" placeholder="Telefone" class="login_input">
+              </div>
+  
+              <div class="login_box">
+                <i class="fas fa-at login_icon"></i>
+                <input type="email" placeholder="Email" class="login_input">
+              </div>
+  
+              <div class="login_box">
+                <i class="fas fa-envelope login_icon"></i>
+                <textarea class="login_input" name="" id="" cols="30" rows="10"></textarea>
+              </div>
+  
+              <a href="#" class="login_button">Enviar</a>
+  
+              <div>
+  
+                <span class="login_signin" id="sign-up"> Redes social</span>
+              </div>
+  
+              <div class="login_social">
+                <a href="#" class="login_social-icon">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="login_social-icon">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="#" class="login_social-icon">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <ul>
+        <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu()">Sobre nós</a></li>
+        <li><a href="#services" onclick="toggleMenu()">Serviços</a></li>
+        <li><a href="#project" onclick="toggleMenu()">Projectos</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contactos</a></li>
+      </ul>
+
+      <div class="copy">
+        <span>Ideal Projectos - &copy;  Todos direitos reservados,</span>
+        <span> powered by: <a href="uniTuenda.ao">uniTuenda</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
